@@ -1,0 +1,67 @@
+/* Google Fonts start */
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* Google Fonts end */
+
+/* header end */
+.logo {
+  font-family: "Edu TAS Beginner", cursive;
+}
+.logo span {
+  -webkit-text-stroke: #0d6efd;
+  -webkit-text-stroke-width: 2px;
+  color: white;
+  font-family: "Edu TAS Beginner", cursive;
+}
+/* header end */
+
+/* banner start */
+#banner {
+  margin-top: 150px;
+}
+.my-btn {
+  transition: all 0.3s ease-in;
+}
+.my-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+a i {
+  margin-left: 10px;
+}
+.social_icons i {
+  font-size: 30px;
+  transition: all 0.4s ease-out;
+}
+.social_icons #fb {
+  color: #087ae9;
+}
+.social_icons #in {
+  color: #0076b3;
+}
+.social_icons #github {
+  color: #000000;
+}
+.social_icons i:hover {
+  transform: scale(1.5);
+}
+.devider {
+  height: 2px;
+  border-width: 0;
+  width: 80%;
+  margin: 150px auto;
+  color: rgb(241, 241, 241);
+  background-color: rgb(219, 219, 219);
+}
+/* banner end */
+
+/* education start */
+.card_border_education {
+  border-top: 10px solid #0d6efd;
+}
+/* education end */
+
+/* experience start */
+.card_border {
+  border-left: 10px solid #0d6efd;
+}
+/* experience end */
