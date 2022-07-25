@@ -55,15 +55,13 @@ a i {
 /* banner end */
 
 /* education start */
-.card_border_education {
-  border-top: 10px solid #0d6efd;
-}
+
 /* education end */
 
 /* experience start */
-.card_border {
+/* .card_border {
   border-left: 10px solid #0d6efd;
-}
+} */
 /* experience end */
 #about {
   background: url(../images/left-bg.png);
@@ -73,4 +71,26 @@ a i {
   background: url(../images/right-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+#experience {
+  background: url(../images/left-bg.png);
+  background-repeat: no-repeat;
+}
+#projects {
+  background: url(../images/right-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#publications {
+  background: url(../images/left-bg.png);
+  background-repeat: no-repeat;
+}
+#honors_awards {
+  background: url(../images/right-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#licenses_certifications {
+  background: url(../images/left-bg.png);
+  background-repeat: no-repeat;
 }
