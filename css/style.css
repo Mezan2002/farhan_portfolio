@@ -53,16 +53,13 @@ a i {
   background-color: rgb(219, 219, 219);
 }
 /* banner end */
-
-/* education start */
-
-/* education end */
-
-/* experience start */
-/* .card_border {
-  border-left: 10px solid #0d6efd;
-} */
-/* experience end */
+.card_hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card_hover:hover {
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+}
 #about {
   background: url(../images/left-bg.png);
   background-repeat: no-repeat;
