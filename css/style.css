@@ -29,19 +29,28 @@ a i {
   margin-left: 10px;
 }
 .social_icons i {
-  font-size: 30px;
+  font-size: 34px;
+  padding: 0 10px;
   transition: all 0.4s ease-out;
 }
-.social_icons #fb {
-  color: #087ae9;
+.social_icons a img {
+  margin: -13px 0 0 15px;
+  transition: all 0.4s ease-out;
 }
-.social_icons #in {
-  color: #0076b3;
+.social_icons #researchGate {
+  padding: 0 10px 0 0;
+  color: #04cda7;
 }
-.social_icons #github {
-  color: #000000;
+.social_icons #orcid {
+  color: #a1c837;
+}
+.social_icons #hackerrank {
+  color: #00b15d;
 }
 .social_icons i:hover {
+  transform: scale(1.5);
+}
+.social_icons a img:hover {
   transform: scale(1.5);
 }
 .devider {
