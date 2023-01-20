@@ -100,3 +100,7 @@ a i {
   background: url(../images/left-bg.png);
   background-repeat: no-repeat;
 }
+.galleryImage {
+  width: 610px;
+  height: 460px;
+}
